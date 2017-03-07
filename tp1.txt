@@ -1,0 +1,5 @@
+compilation séparée :
+g++ -c Fibonacci.cpp //donne fibo.o
+g++ -c main.cpp
+g++ -o exec main.o fibo.o // donne exec.out
+
